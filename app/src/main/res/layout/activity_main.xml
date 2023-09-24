@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="30"
+                android:gravity="center|end"
+                android:paddingLeft="5dp"
+                android:textColor="#000000"
+                android:paddingRight="5dp"
+                android:text="@string/thousand"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/e1000"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/rectangle_box"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="30"
+                android:gravity="center|start"
+                android:textColor="#000000"
+                android:hint="@string/enter_number"
+                android:inputType="numberDecimal"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" />
+            <TextView
+                android:id="@+id/thousand"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="2dp"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:background="@drawable/rectangle_box"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="40"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="30"
+                android:gravity="center|end"
+                android:paddingLeft="5dp"
+                android:textColor="#000000"
+                android:paddingRight="5dp"
+                android:text="@string/fiveh"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/e500"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/rectangle_box"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="30"
+                android:gravity="center|start"
+                android:textColor="#000000"
+                android:hint="@string/enter_number"
+                android:inputType="numberDecimal"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" />
+            <TextView
+                android:id="@+id/fiveh"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="2dp"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:background="@drawable/rectangle_box"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="40"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="30"
+                android:gravity="center|end"
+                android:paddingLeft="5dp"
+                android:textColor="#000000"
+                android:paddingRight="5dp"
+                android:text="@string/hundred"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/e100"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/rectangle_box"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="30"
+                android:gravity="center|start"
+                android:textColor="#000000"
+                android:hint="@string/enter_number"
+                android:inputType="numberDecimal"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" />
+            <TextView
+                android:id="@+id/hundred"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="2dp"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:background="@drawable/rectangle_box"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="40"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="30"
+                android:gravity="center|end"
+                android:paddingLeft="5dp"
+                android:textColor="#000000"
+                android:paddingRight="5dp"
+                android:text="@string/fifty"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/e50"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/rectangle_box"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="30"
+                android:gravity="center|start"
+                android:textColor="#000000"
+                android:hint="@string/enter_number"
+                android:inputType="numberDecimal"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" />
+            <TextView
+                android:id="@+id/fifty"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="2dp"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:background="@drawable/rectangle_box"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="40"/>
+        </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="30"
+                    android:gravity="center|end"
+                    android:paddingLeft="5dp"
+                    android:textColor="#000000"
+                    android:paddingRight="5dp"
+                    android:text="@string/twenty"
+                    android:textSize="25sp"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/e20"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/rectangle_box"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="30"
+                    android:gravity="center|start"
+                    android:textColor="#000000"
+                    android:hint="@string/enter_number"
+                    android:inputType="numberDecimal"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp" />
+                <TextView
+                    android:id="@+id/twenty"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="2dp"
+                    android:textColor="#000000"
+                    android:textSize="25sp"
+                    android:background="@drawable/rectangle_box"
+                    android:paddingRight="5dp"
+                    android:paddingLeft="5dp"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="40"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="30"
+                    android:gravity="center|end"
+                    android:paddingLeft="5dp"
+                    android:textColor="#000000"
+                    android:paddingRight="5dp"
+                    android:text="@string/ten"
+                    android:textSize="25sp"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/e10"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/rectangle_box"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="30"
+                    android:gravity="center|start"
+                    android:textColor="#000000"
+                    android:hint="@string/enter_number"
+                    android:inputType="numberDecimal"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp" />
+                <TextView
+                    android:id="@+id/ten"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="2dp"
+                    android:textColor="#000000"
+                    android:textSize="25sp"
+                    android:background="@drawable/rectangle_box"
+                    android:paddingRight="5dp"
+                    android:paddingLeft="5dp"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="40"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="30"
+                    android:gravity="center|end"
+                    android:paddingLeft="5dp"
+                    android:textColor="#000000"
+                    android:paddingRight="5dp"
+                    android:text="@string/five"
+                    android:textSize="25sp"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/e5"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/rectangle_box"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="30"
+                    android:gravity="center|start"
+                    android:textColor="#000000"
+                    android:hint="@string/enter_number"
+                    android:inputType="numberDecimal"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp" />
+                <TextView
+                    android:id="@+id/five"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="2dp"
+                    android:textColor="#000000"
+                    android:textSize="25sp"
+                    android:background="@drawable/rectangle_box"
+                    android:paddingRight="5dp"
+                    android:paddingLeft="5dp"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="40"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="15"
+                    android:gravity="center|end"
+                    android:paddingLeft="5dp"
+                    android:textColor="#000000"
+                    android:paddingRight="5dp"
+                    android:text="@string/currency"
+                    android:textSize="25sp"
+                    android:textStyle="italic" />
+                <EditText
+                    android:id="@+id/ecur"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/rectangle_box"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="15"
+                    android:gravity="center|start"
+                    android:textColor="#000000"
+                    android:hint="@string/enter_number"
+                    android:inputType="numberDecimal"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp" />
+
+                <EditText
+                    android:id="@+id/eamt"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/rectangle_box"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="30"
+                    android:gravity="center|start"
+                    android:textColor="#000000"
+                    android:hint="@string/enter_number"
+                    android:inputType="numberDecimal"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp" />
+                <TextView
+                    android:id="@+id/cur"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="2dp"
+                    android:textColor="#000000"
+                    android:textSize="25sp"
+                    android:background="@drawable/rectangle_box"
+                    android:paddingRight="5dp"
+                    android:paddingLeft="5dp"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="40"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="60"
+                    android:gravity="center|end"
+                    android:paddingLeft="20dp"
+                    android:textColor="#000000"
+                    android:paddingRight="20dp"
+                    android:text="@string/total"
+                    android:textSize="25sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/totals"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="2dp"
+                    android:textColor="#000000"
+                    android:textSize="25sp"
+                    android:background="@drawable/rectangle_box"
+                    android:paddingRight="5dp"
+                    android:paddingLeft="5dp"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="40"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/inwords"
+                android:gravity="center|start"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                />
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

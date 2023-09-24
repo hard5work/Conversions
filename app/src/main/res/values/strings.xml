@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Conversion</string>
+    <string name="thousand">1000 X</string>
+    <string name="fiveh">500 X</string>
+    <string name="hundred">100 X</string>
+    <string name="fifty">50 X</string>
+    <string name="twenty">20 X</string>
+    <string name="ten">10 X</string>
+    <string name="five">5 X</string>
+    <string name="currency">cur </string>
+    <string name="rate">rate</string>
+    <string name="total">Total</string>
+    <string name="enter_number">Enter Number</string>
+</resources>
